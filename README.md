@@ -1,1 +1,1 @@
-# Pong
+# Sky Pong - Play pong in the sky!
