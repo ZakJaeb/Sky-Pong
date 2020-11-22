@@ -50,6 +50,7 @@ function create ()
     ball = this.physics.add.sprite(400, 300, 'ball');
     ball.setBounce(1);
     ball.setCollideWorldBounds(true);
+    ball.setVelocity(Phaser.Math.Between(-200, 200), 50);
 }
 
 function update ()
